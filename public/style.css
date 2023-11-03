@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-color: #f8f8ff;
+}
+li,a,button,.dsc .nav_link2,.dsc .nav_link1,.dsc .nav_link3,.dsc .nav_link4{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:  #24252A;
+    text-decoration: none;
+}
+nav{
+    order:1;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    border-bottom: #24252A;
+}
+.nav_links{
+    list-style: none;
+
+}
+.cta{
+    order:2;
+}
+.dsc button{
+    padding: 0;
+    border: none;
+    background: none;
+    margin-left: 40px;
+    font-size: large;
+}
+.btn button{
+    padding: 9px 25px;
+     background-color: rgba(0, 136, 169, 1);
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.row .column p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+}
+.bodya{
+    width: 400px;
+    margin: auto;
+  width: 50%;
+}
+.bodya h1{
+    margin-top: 150px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+.bodya p{
+    font-family: "Montserrat",sans-serif;
+    font-size: larger;
+}
+.skill{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.pjt{
+    border:1px solid black;
+    width:250px;
+    height:300px;
+    float:left;
+    border-radius:10px;
+}
+.pjt:hover{
+    filter: brightness(50%);
+    transition: filter 0.25s ease;
+    cursor:pointer;
+}
+.decor{	
+    text-decoration:none;
+border:#CCC thin solid;
+padding: 4px;
+margin-left: 2.5px;
+margin-top: 3px;
+}
+.decor:hover { background:#CCC;}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .btn:hover .dropdown-content {display: block;}
+  
+  .btn:hover .cta {background-color: #0066CC;}
