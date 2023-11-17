@@ -16,6 +16,15 @@ export default function Projects() {
             skill3="components,screens"
             skill4="CSS"
         />
+        <Card
+          webs="https://github.com/krnveersharma/bookstore_management_system"
+          image={theImage2}
+          name="Bookstore Management"
+          skill1="React"
+          skill2="Css"
+          skill3="Express.js"
+          skill4="MongoDB"
+        />
     <div><Footer/></div>
     </div>
   )
